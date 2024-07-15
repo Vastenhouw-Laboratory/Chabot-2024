@@ -37,7 +37,7 @@ Jupyter notebooks tested on Red Hat Enterprise Linux 8.6 on a AMD Epyc 7763 proc
 5. Run the analysis by executing the line `df = process_single_image(tracked_image, raw_image)`. The results will be stored in the resulting dataframe
 6. The output of this script on the supplied test data should reproduce the results in `test_output.csv`
 
-## Running the software on other data that this paper
+## Running the software on other data than this paper
 
 This software was written to operate on the data generated for the current publication. In order to run this analysis on your own data, you must first ensure that the data is formatted in a manner consistent with the test data. In this case, you need two files
 
