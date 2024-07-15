@@ -6,8 +6,10 @@ Using this mask, distances between the center of the gravity and the center of e
 
 # Folder content
 
-Link to the python code
-Link to the demo data
+- Link to the python code
+- Link to the demo data
+- Link to the dataframe
+- Link to the expected output
 
 # System requirements
 ## Hardware requirements
