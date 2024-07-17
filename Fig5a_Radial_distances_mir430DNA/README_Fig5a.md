@@ -45,7 +45,6 @@ This software was written to operate on the data generated for the current publi
 2. A raw data file, in the shape `TCZYX`, containing the raw data. In this case, it is important that the 6th channel contains the segmented (binary) RNA transcription signal which will determine when transcription is initiated
 3. Run the script, updating where appropriate the file paths
 
-# Citation
 
 
 
