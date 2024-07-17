@@ -1,2 +1,0 @@
-11.01_1k_6_5_Nanog_Shortest_Distance_to_Surfaces_Surfaces=MCP.csv
-12.01_1k_9_1_Nanog_Shortest_Distance_to_Surfaces_Surfaces=MCP.csv
