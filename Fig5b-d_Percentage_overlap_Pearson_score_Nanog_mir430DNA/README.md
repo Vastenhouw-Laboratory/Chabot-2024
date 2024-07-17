@@ -6,10 +6,22 @@ Using this mask, distances between the center of the gravity and the center of e
 
 # Folder content
 
-- Link to the python code
-- Link to the demo data
-- Link to the dataframe
-- Link to the expected output
+Input files:
+- `Filelist_ShortestDist_MCP.txt`
+- `ImageInfo_List.txt`
+- `MasterTable_AllNuclei_AlleleNum_TrackID_TxnTime_30Oct2023.csv`
+- Two demo images : `11.01_1k_6_5.ims.tif` and `12.01_1k_9_1.ims.tif`
+
+Scripts for data management and analysis:
+- 1_Parse_FusionTime_NumClusterOvlp.pl
+- 2_Calculate_Pearson_OverlapVolume.m
+- 3_Align_OverlapVol_Pearson_TxnStart_Merging.pl
+
+Output files:
+- `AllNuclei_Allele_All_Values_Pooled.txt`
+- `AllNuclei_TrackID_FusionTimes_NumNanogClust-Ovlp-Cutoff_RadiusZ.txt`
+- `OverlapVolume_Matlab.txt`
+- `PearsonCoeff_Matlab_actual_scramble.txt`
 
 # System requirements
 ## Hardware requirements
