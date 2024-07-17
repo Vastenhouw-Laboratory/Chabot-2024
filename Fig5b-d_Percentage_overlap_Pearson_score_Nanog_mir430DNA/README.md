@@ -1,9 +1,9 @@
 # Overview
 
 The Figure 5b-d displays information about the percentage of overlap between the Nanog and DNA masks. Briefly, Nanog and mir430 DNA signal have been segmented using Imaris, and the resulting masks resulting were isolated in two channels in the same image file. The following script reads already available information about the data, as well as the images, and calculate:
--The percentage of overlap between Nanog and mir430 DNA masks in comparison to the size of the Nanog mask
--The percentage of overlap between Nanog and mir430 DNA masks in comparison to the size of the mir430 DNA mask
--The Pearson's correlation score between Nanog and mir430 DNA raw pixels inside the mir430 DNA mask.
+- The percentage of overlap between Nanog and mir430 DNA masks in comparison to the size of the Nanog mask
+- The percentage of overlap between Nanog and mir430 DNA masks in comparison to the size of the mir430 DNA mask
+- The Pearson's correlation score between Nanog and mir430 DNA raw pixels inside the mir430 DNA mask.
 
 # Folder content
 
