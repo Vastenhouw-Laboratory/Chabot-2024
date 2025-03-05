@@ -1,4 +1,4 @@
-Welcome to the repository for Chabot et al.!
+# Welcome to the repository for Chabot et al.!
 
 Here you will find all information and codes for the manuscript:
 
