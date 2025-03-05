@@ -1,10 +1,10 @@
 # README
 
-## Analysis script for the dynamics of mir430 loci
+## Analysis script for the quantification of mir430 loci dynamics
 
 Script developed by Alessia Del Panta at the University of Lausanne, Department of Fundamental Microbiology.
 
-Jupyter notebook tested on Ubuntu 22.04 on an Intel Core i10 processor under Python 3.7.11 using jupyter-core 4.9.2.
+Jupyter notebook tested on Ubuntu 22.04 on an Intel Core i10 processor under Python 3.7.11 using jupyter-core 4.9.2 and on a MacOS Sequoia on a Apple M3 Pro processor under Python 3.8.19 using jupyter_core 5.7.2.
 
 ### Instructions for Installation (typical install time, < 2 mins)
 
