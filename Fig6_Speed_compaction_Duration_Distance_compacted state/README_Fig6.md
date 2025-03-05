@@ -32,11 +32,14 @@ Date	Stage	Time	TrackID	Position.X	Position.Y	Position.Z	Nucleus.number	Conditio
 Where:
 
 - "Date" is the date at which the loci where imaged
-- "Stage" is the stage at which the cell was at during imaging
+- "Stage" is the stage at which the embryo was at during imaging
 - "TrackID" is a unique ID for each allele within a nucleus
 - "Time" is an integer indicating the time step at which a locus was imaged
-- "Position.X", "Position.Y", "Position.Z" are the coordinates of an imaged lcus at a certain time step
+- "Position.X", "Position.Y", "Position.Z" are the coordinates of the imaged locus at the corresponding time step
+- "Stack" is an ID for each imaged embryo
+- "Nucleus" is an ID for each imaged nucleus in a specific embryo
 - "Nucleus.number" is a unique ID for each nucleus
-- "Condition" is either "Mutant" or "Inhibition"
+- "Volume.spot" is the volume of the tracked loci over time
+- "Condition" is, in this case, either "Mutant" (missing nanog), "Inhibition" (nanog FL with inhibited transcription), DeltaC (nanog mutant missing the C terminal domain) and DeltaN (nanog mutant missing the N terminal domain)
 
 Then, run the script, updating the file path (variable "filename") and the time interval between frames (variable "delta_t"). 
