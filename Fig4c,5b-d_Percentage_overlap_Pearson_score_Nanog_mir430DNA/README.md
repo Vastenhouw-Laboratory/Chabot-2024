@@ -7,18 +7,17 @@ The Figure 5b-d displays information about the percentage of overlap between the
 
 # Folder content
 
-Input files:
-- `Filelist_ShortestDist_MCP.txt`
-- `ImageInfo_List.txt`
-- `MasterTable_AllNuclei_AlleleNum_TrackID_TxnTime_30Oct2023.csv`
-- Two demo images : `11.01_1k_6_5.ims.tif` and `12.01_1k_9_1.ims.tif`
+Input files (in folder `Input`):
+- `ImageInfo_List.txt`, `Filelist_ShortestDist_MCP.txt`, `MasterTable_AllNuclei_AlleleNum_TrackID_TxnTime_30Oct2023.csv`
+- Two demo images : `11.01_1k_6_5.ims.tif` and `12.01_1k_9_1.ims.tif` hosted at https://tinyurl.com/chabot-purkanti-testimages (will be moved to long term storage after publication)
+- Statistics folder with metrics `Nanog diameter` and `Shortest distance from surfaces` for the two demo images as exported from Imaris
 
 Scripts for data management and analysis:
 - `1_Parse_FusionTime_NumClusterOvlp.pl`
 - `2_Calculate_Pearson_OverlapVolume.m`
 - `3_Align_OverlapVol_Pearson_TxnStart_Merging.pl`
 
-Output files:
+Output files (in folder `Output`):
 - `AllNuclei_Allele_All_Values_Pooled.txt`
 - `AllNuclei_TrackID_FusionTimes_NumNanogClust-Ovlp-Cutoff_RadiusZ.txt`
 - `OverlapVolume_Matlab.txt`
@@ -41,9 +40,10 @@ Softwares and dependencies: The following softwares were used for these analysis
 
 #  Installation guide
 
-1. Place the input files in the same folder: Input files: `Filelist_ShortestDist_MCP.txt`, `ImageInfo_List.txt`, `MasterTable_AllNuclei_AlleleNum_TrackID_TxnTime_30Oct2023.csv`,`11.01_1k_6_5.ims.tif` and `12.01_1k_9_1.ims.tif`.
-2. Open a command line window
-3. Run the commands as described below.
+1. Download and place the scripts `1_Parse_FusionTime_NumClusterOvlp.pl`, `2_Calculate_Pearson_OverlapVolume.m` and `3_Align_OverlapVol_Pearson_TxnStart_Merging.pl`, the folders `Input` and `Output` into a folder.
+2. Download the zipped demo images `Nanog_miR430_Nuclei_Tif_Format.zip` from https://tinyurl.com/chabot-purkanti-testimages and unzip into the previously downloaded `Input` folder
+3. Open a command line window
+4. Run the commands as described below.
 
 # Demo
 ## Intructions to run on data (typical runtime on test data, 5 seconds, not counting image loading time)
